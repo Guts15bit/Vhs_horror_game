@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VHS // THE LAST TAPE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="game">
+    <div id="noise"></div>
+    <div id="vignette"></div>
+
+    <div id="hud">
+      <div>REC ●</div>
+      <div id="time">02:13:07 AM</div>
+    </div>
+
+    <div id="message"></div>
+
+    <div id="crosshair">+</div>
+
+    <div id="startScreen">
+      <h1>THE LAST TAPE</h1>
+      <p>VHS REC // TAPE 04</p>
+      <button id="startButton">PLAY TAPE</button>
+      <small>WASD — MOVE &nbsp; | &nbsp; MOUSE — LOOK &nbsp; | &nbsp; F — FLASHLIGHT</small>
+    </div>
+
+    <div id="gameOver">
+      <h1>NO SIGNAL</h1>
+      <p>THE TAPE HAS ENDED.</p>
+      <button onclick="location.reload()">REWIND</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
